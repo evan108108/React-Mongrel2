@@ -10,7 +10,7 @@
         "evenement/evenement": "1.0.*",
         "react/event-loop": "0.2.*",
 				"react/zmq": "0.1.*",
-				"winks/m2php": "@dev"
+				"winks/m2php": "0.1.9"
     },
     "require-dev": {
         "ext-pcntl": "*"
