@@ -9,7 +9,7 @@ The recommended way to install react/mongrel2 is [through composer](http://getco
 ```JSON
 {
     "require": {
-        "react/mongrel2": "0.1.*"
+        "react/mongrel2": "dev-master"
     }
 }
 ```
