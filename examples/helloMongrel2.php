@@ -1,24 +1,4 @@
-# React/Mongrel2
-
-Mongrel2 bindings for React. Provides a simple rapper for easy connection to Mongrel2 web-server.
-
-## Install
-
-The recommended way to install react/mongrel2 is [through composer](http://getcomposer.org).
-
-```JSON
-{
-    "require": {
-        "react/mongrel2": "0.1.*"
-    }
-}
-```
-
-## Example
-
-Hello World; Connecting a React process to Mongrel2:
-### helloMongrel2.php
-```php
+<?php
 require __DIR__.'/vendor/autoload.php';
 
 $loop = React\EventLoop\Factory::create(); //Create The React Loop
@@ -56,31 +36,5 @@ $loop = React\EventLoop\Factory::create(); //Create The React Loop
 	//---------------------------------------------------------
 
 $loop->run(); //Start the loop
-```
 
-
-### mongrel2.conf
-```py
-hello_handler = Handler(
-    send_spec='tcp://*:9997', 
-    send_ident='ab206881-6f49-4276-9db1-1676bfae18b0',
-    recv_spec='tcp://*:9996', recv_ident='',
-)
-
-main = Server(
-    uuid="9e71cabf-6afb-4ee1-b550-7972245f7e0a",
-    access_log="/logs/access.log",
-    error_log="/logs/error.log",
-    chroot="./",
-    default_host="localhost",
-    name="codebanger",
-    pid_file="/run/mongre2.pid",
-    port=6767,
-    hosts = [
-        Host(name="localhost", routes={'/hello':hello_handler})
-    ]
-)
-
-servers = [main]
-```
 
