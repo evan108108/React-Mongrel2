@@ -1,8 +1,9 @@
 {
     "name": "react/mongrel2",
     "description": "Mongrel2 bindings for React.",
-    "keywords": ["mongrel2", "mongrel"],
+    "keywords": ["mongrel2", "mongrel", "React", "ZMQ"],
     "license": "MIT",
+		"version": "0.1.2",
     "require": {
         "php": ">=5.3.2",
         "ext-zmq": "*",
@@ -17,9 +18,4 @@
     "autoload": {
         "psr-0": { "React\\Mongrel2": "src" }
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "0.1-dev"
-        }
-    }
 }
