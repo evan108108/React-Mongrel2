@@ -1,6 +1,6 @@
 {
     "name": "react/mongrel2",
-    "description": "Mongrel2 bindings for React.",
+    "description": "Mongrel2 bindings for Reactphp.",
     "keywords": ["mongrel2", "mongrel", "React", "ZMQ"],
     "license": "MIT",
 		"version": "0.1.3",
@@ -10,7 +10,7 @@
         "evenement/evenement": "1.0.*",
         "react/event-loop": "0.2.*",
 				"react/zmq": "0.1.*",
-				"winks/m2php": "0.1.9"
+				//"winks/m2php": "0.1.*"
     },
     "require-dev": {
         "ext-pcntl": "*"

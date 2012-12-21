@@ -3,8 +3,8 @@ namespace React\Mongrel2;
 
 use Evenement\EventEmitter;
 use React\EventLoop\LoopInterface;
-use Mongrel2\Request;
-use Mongrel2\Tool;
+use React\Mongrel2\Request;
+use React\Mongrel2\Tool;
 
 class Connect extends EventEmitter
 {
