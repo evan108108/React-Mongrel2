@@ -1,6 +1,6 @@
 # React/Mongrel2
 
-Mongrel2 bindings for React. Provides a simple rapper for easy connection to Mongrel2 web-server.
+Mongrel2 bindings for [ReactPHP](http://reactphp.org). Provides a simple rapper for easy connection to Mongrel2 web-server.
 
 ## Install
 
