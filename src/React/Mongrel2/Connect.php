@@ -3,8 +3,8 @@ namespace React\Mongrel2;
 
 use Evenement\EventEmitter;
 use React\EventLoop\LoopInterface;
-use React\Mongrel2\Request;
-use React\Mongrel2\Tool;
+use Mongrel2\Request;
+use Mongrel2\Tool;
 
 class Connect extends EventEmitter
 {
@@ -45,7 +45,7 @@ class Connect extends EventEmitter
 	{
 		$that = $this;
 
-		$this->read->on('message', function ($msg) use ($that) {	
+		$this->read->on('message', function ($msg) use ($that) {
 			$that->emit('read.message', array($msg));
 		});
 
@@ -74,4 +74,4 @@ class Connect extends EventEmitter
 		$header = sprintf('%s %d:%s,', $uuid, strlen($conn_id), $conn_id);
 		$this->write->send($header . " " . $msg);
 	}
-}	
+}
