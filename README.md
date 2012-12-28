@@ -1,4 +1,4 @@
-# React/Mongrel2
+# Starship/ReactMongrel2
 
 Mongrel2 bindings for [ReactPHP](http://reactphp.org). Provides a simple rapper for easy connection to Mongrel2 web-server.
 
