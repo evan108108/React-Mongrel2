@@ -1,5 +1,5 @@
 {
-    "name": "starship/react/mongrel2",
+    "name": "starship/reactmongrel2",
     "description": "Mongrel2 bindings for Reactphp.",
     "keywords": ["mongrel2", "mongrel", "React", "ZMQ"],
     "license": "MIT",
@@ -13,6 +13,6 @@
         "ext-pcntl": "*"
     },
     "autoload": {
-        "psr-0": { "Starship\\React\\Mongrel2": "src" }
+        "psr-0": { "Starship\\ReactMongrel2": "src" }
     }
 }

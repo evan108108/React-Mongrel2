@@ -5,7 +5,7 @@ $loop = React\EventLoop\Factory::create(); //Create The React Loop
 
 	//Mongrel2 Setup ------------------------------------------
 	//---------------------------------------------------------
-	$m2 = new Starship\React\Mongrel2\Connect(
+	$m2 = new Starship\ReactMongrel2\Connect(
 		'82209006-86FF-4982-B5EA-D1E29E55D481', //Sender ID 
 		'tcp://127.0.0.1:9997', //recv_spec
 		'tcp://127.0.0.1:9996', //send_spec

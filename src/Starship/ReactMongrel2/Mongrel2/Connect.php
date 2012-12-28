@@ -1,5 +1,5 @@
 <?php
-namespace Starship\React\Mongrel2;
+namespace Starship\ReactMongrel2;
 
 use Evenement\EventEmitter;
 use React\EventLoop\LoopInterface;
