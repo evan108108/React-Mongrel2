@@ -6,7 +6,7 @@
     "version": "0.1.4",
     "require": {
         "php": ">=5.3.2",
-        "winks/m2php": "dev-master",
+        "winks/m2php": "@dev",
         "react/zmq": "0.1.*"
     },
     "require-dev": {
